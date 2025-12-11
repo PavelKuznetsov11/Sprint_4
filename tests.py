@@ -230,3 +230,4 @@ class TestBooksCollector:
             collector.add_book_in_favorites(name_book[i])
 
         assert len(collector.get_list_of_favorites_books()) == 2
+        
